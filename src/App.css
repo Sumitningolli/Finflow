@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.9;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.block{
+    animation: appear 10s ease-in;
+    animation-timeline:view();
+    animation-range: entry 0 cover 20%;
+}
+.move{
+    animation: appear 5s ease-in;
+    animation-timeline:view();
+    animation-range: entry 0 cover 20%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+button{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
