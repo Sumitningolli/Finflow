@@ -1,6 +1,7 @@
 
 import './App.css'
 import Benefits from './components/Benefits'
+import Chatbot from './components/Chatbot'
 import Features from './components/Features'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <>
+    <Chatbot/>
     <Navbar/>
     <Hero/>
     <Features/>
